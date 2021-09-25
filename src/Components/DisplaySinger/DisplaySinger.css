@@ -1,0 +1,23 @@
+.DisplaySinger-container img{
+    width: 200px;
+    height: 200px;
+}
+.single-singer{
+    display: flex;
+    width: 330px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    /* border: 1px solid; */
+    box-shadow: 4px 4px 4px 4px rgb(241, 238, 238);
+}
+.single-singer-text{
+    margin: 10px; 
+    font-weight: 100;
+    
+}
+.single-singer-text h4{
+    margin: 5px;
+    padding: 5px;
+    
+}
