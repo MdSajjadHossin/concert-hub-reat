@@ -6,7 +6,7 @@ import './Singer.css'
 const Singer = () => {
     const [singers, setSingers] = useState([]);
     const [cart, setCart] = useState([]);
-    // const [names, setNames] = useState([]);
+    const [names, setNames] = useState([]);
 
     useEffect ( ()=> {
         fetch('./fakeData.JSON')
@@ -14,12 +14,12 @@ const Singer = () => {
         .then(data => setSingers(data))
         // .then(data => setDisplaySinger(data))
     },[]);
-    const addToCartHandler = (singers) => {
+    const addToCartHandler = (singers, name) => {
         // console.log(singers.name);
         const newCart = [...cart, singers]
         setCart(newCart)
-        // const newName = [...names, singers]
-        // setNames(newName)
+        const newName = [...names, name]
+        setNames(newName)
 
     }
     return (
@@ -46,7 +46,7 @@ const Singer = () => {
             <button>Hire Now</button> */}
             <Cart 
             cart ={cart}
-            // name = {names}
+            names = {names}
             ></Cart>
         </div>
         </div>

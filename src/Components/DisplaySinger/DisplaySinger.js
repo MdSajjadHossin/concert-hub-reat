@@ -17,7 +17,7 @@ const DisplaySinger = (props) => {
                     <p>Age: {age}</p>
                     <p>Country: {country}</p>
                     <h5>Salary: {salary}</h5>
-                    <button onClick = {() => props.addToCartHandler(props.singers)}>Book Now</button>
+                    <button onClick = {() => props.addToCartHandler(props.singers, name)}>Book Now</button>
                     </div>
                </div>
             </div>
