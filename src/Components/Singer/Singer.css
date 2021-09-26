@@ -1,9 +1,17 @@
-.singer-container{
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-}
-.displaySinger-Container{
-    display: grid;
-    grid-template-columns: auto auto auto;
+  .singer-container{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+    @media all and (min-width: 1200px) {
+        .displaySinger-Container{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            
+        } 
+    }
+
+
+   
     
-}
+
+

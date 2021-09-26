@@ -1,18 +1,26 @@
-.header-container{
-    padding: 0 px;
-    background-color: rgb(41, 37, 37);
-    color: blanchedalmond;
-    
-}
+    .header-container{
+        width: auto;
+        height: auto;
+        padding: 0px;
+        background-color:orangered;
+        color: blanchedalmond;
+        
+    }
 .header{
-width: 100%;
 text-align: center;
 margin: 0px;
 padding: 0px;
 }
 .header h1{
-    margin: 0px;
+    margin: auto;
+    width: auto;
 }
+
 #hub{
-    color: rgba(45, 49, 250, 0.925);
+    color: rgb(51, 10, 233);
+}
+@media only screen and (min-width: 600px) {
+    .header-container{
+        width: auto;
+    }
 }

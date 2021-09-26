@@ -6,7 +6,9 @@ import Singer from './Components/Singer/Singer';
 function App() {
   return (
     <div className="App">
+      <div className="header-with-fix">
       <Header></Header>
+      </div>
       <Singer></Singer>
     </div>
   );

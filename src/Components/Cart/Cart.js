@@ -21,7 +21,7 @@ const Cart = (props) => {
                
                props.names.map(name => 
                <li 
-               key = {name.id}>{name}</li>)
+               key = {name.name}>{name}</li>)
            }
            <button className="hire-me-btn">Hire</button>
             </div>
