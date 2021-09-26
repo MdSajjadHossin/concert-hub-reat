@@ -1,9 +1,17 @@
+.header-container{
+    padding: 0 px;
+    background-color: rgb(41, 37, 37);
+    color: blanchedalmond;
+    
+}
 .header{
+width: 100%;
 text-align: center;
-background-color: rgba(91, 138, 139, 0.534);
-margin: 0px 20px 10px 20px;
-
-
+margin: 0px;
+padding: 0px;
+}
+.header h1{
+    margin: 0px;
 }
 #hub{
     color: rgba(45, 49, 250, 0.925);

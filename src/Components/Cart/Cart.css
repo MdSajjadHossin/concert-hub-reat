@@ -6,3 +6,24 @@
     padding-bottom: 10px;
     margin-right: 10px;
 }
+.cart-container:hover{
+    box-shadow: 6px 6px 9px gray;
+    border-radius: 10px;
+    border: 3px solid rgb(0, 17, 255);
+}
+#Singer-list-text{
+    color: green;
+}
+.hire-me-btn{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(199, 37, 37);
+    border: none;
+    width: 100px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.hire-me-btn:hover{
+    background-color: orangered;
+}

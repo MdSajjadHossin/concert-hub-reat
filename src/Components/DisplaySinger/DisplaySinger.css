@@ -1,21 +1,29 @@
 .DisplaySinger-container img{
-    padding-top: 25px;
     width: 250px;
     height: 230px;
+    padding: 0px;
+    border-radius: 5px;
 }
 .single-singer{
     /* display: flex; */
     background-color: rgba(248, 240, 240, 0.794);
     width: auto;
-    height: auto;
+    height: 550px;
     margin: 10px;
     padding: 10px;
-    /* border: 1px solid; */
-    box-shadow: 4px 4px 4px 4px rgb(241, 238, 238);
+    border-radius: 5px;
+    box-shadow: 7px 7px 7px 7px rgb(110, 108, 108);
     text-align: center;
+    padding: 10px;
+    transition: 0.9s;
+}
+.single-singer:hover{
+    box-shadow: 6px 6px 9px gray;
+    border-radius: 10px;
+    border: 3px solid rgb(0, 217, 255);
 }
 .single-singer-text{
-    margin: 10px; 
+    margin: 5px; 
     font-weight: 100;
     
 }
@@ -26,4 +34,21 @@
 }
 #salary-span{
     background-color: goldenrod;
+}
+.book-now-btn{
+    padding: 10px;
+    background-color:green;
+    border: none;
+    color: honeydew;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.details-btn{
+    margin-left: 30px;
+    padding: 10px;
+    background-color:orangered;
+    border: none;
+    color: honeydew;
+    font-weight: 700;
+    border-radius: 5px;
 }
