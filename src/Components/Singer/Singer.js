@@ -40,10 +40,6 @@ const Singer = () => {
             }
         </div>
         <div className="cart">
-            {/* <h3>cart: {cart.length}</h3>
-            <h3>Name: </h3>
-            <h3>Total: </h3>
-            <button>Hire Now</button> */}
             <Cart 
             cart ={cart}
             names = {names}

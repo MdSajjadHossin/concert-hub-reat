@@ -1,16 +1,18 @@
 .DisplaySinger-container img{
     padding-top: 25px;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 230px;
 }
 .single-singer{
-    display: flex;
+    /* display: flex; */
+    background-color: rgba(248, 240, 240, 0.794);
     width: auto;
     height: auto;
     margin: 10px;
     padding: 10px;
     /* border: 1px solid; */
     box-shadow: 4px 4px 4px 4px rgb(241, 238, 238);
+    text-align: center;
 }
 .single-singer-text{
     margin: 10px; 
@@ -21,4 +23,7 @@
     margin: 5px;
     padding: 5px;
     
+}
+#salary-span{
+    background-color: goldenrod;
 }

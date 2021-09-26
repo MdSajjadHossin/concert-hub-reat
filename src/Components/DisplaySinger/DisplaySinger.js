@@ -13,10 +13,10 @@ const DisplaySinger = (props) => {
                     <img src={img} alt="" />
                 </div>
                 <div className="single-singer-text">
-                    <h5>Name: {name}</h5>
-                    <p>Age: {age}</p>
-                    <p>Country: {country}</p>
-                    <h5>Salary: {salary}</h5>
+                    <h2>Name: {name}</h2>
+                    <h3>Age: {age}</h3>
+                    <h4>Country: {country}</h4>
+                    <h2>Salary: <span id="salary-span">{salary}</span> </h2>
                     <button onClick = {() => props.addToCartHandler(props.singers, name)}>Book Now</button>
                     </div>
                </div>

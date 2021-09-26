@@ -10,13 +10,19 @@ const Cart = (props) => {
             }
     return (
         <div className="cart">
+            <div className="cart-container">
             <h3>Singer List</h3>
             <h5>Singers Added: {cart.length}</h5> 
            <h5>Total Amount: ${total}</h5>
            <h5>Selected Singers: </h5>
            {
-               props.names.map(name => <li>{name}</li>)
+               
+               props.names.map(name => 
+               <li 
+               key = {name.id}>{name}</li>)
            }
+           <button>Hire</button>
+            </div>
         </div>
     );
 };
