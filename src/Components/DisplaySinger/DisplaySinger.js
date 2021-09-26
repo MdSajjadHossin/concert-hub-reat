@@ -2,7 +2,7 @@ import React from 'react';
 import "./DisplaySinger.css"
 
 const DisplaySinger = (props) => {
-    console.log(props.singers);
+    console.log(props);
     const {img, name, age, country, salary} = props.singers;
     return (
         <div>
@@ -14,9 +14,10 @@ const DisplaySinger = (props) => {
                 </div>
                 <div className="single-singer-text">
                     <h5>Name: {name}</h5>
-                    <h5>Age: {age}</h5>
-                    <h5>Country: {country}</h5>
+                    <p>Age: {age}</p>
+                    <p>Country: {country}</p>
                     <h5>Salary: {salary}</h5>
+                    <button onClick = {() => props.addToCartHandler(props.singers)}>Book Now</button>
                     </div>
                </div>
             </div>
